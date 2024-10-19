@@ -23,11 +23,11 @@ WATCH_DIR=watch_dir
 
 # Features
 
-Monitors Directory for Changes: Automatically watches for new files, changes to existing files, and deletions.
+- Monitors Directory for Changes: Automatically watches for new files, changes to existing files, and deletions.
 
-Uses Polling for Reliability: Utilizes usePolling to ensure that changes are detected, even on systems where native file system events might be less reliable.
+- Uses Polling for Reliability: Utilizes usePolling to ensure that changes are detected, even on systems where native file system events might be less reliable.
 
-Handles Large Files Gracefully: The awaitWriteFinish option helps to ensure that large files are fully written before events are triggered.
+- Handles Large Files Gracefully: The awaitWriteFinish option helps to ensure that large files are fully written before events are triggered.
 
 # Configuration Options
 
